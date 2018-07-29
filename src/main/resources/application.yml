@@ -1,0 +1,21 @@
+donne:
+  jms:
+    username: JMS Username Yaml
+    password: somepass
+    dburl: SomeUrl
+    
+---
+spring:
+  profiles: de
+donne:
+  jms:
+    username: JMS Username $$$$ German
+    
+---
+spring:
+  profiles: es
+donne:
+  jms:
+    username: UserName in Spanish Yaml
+ 
+    
